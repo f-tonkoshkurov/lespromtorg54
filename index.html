@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Продажа пиломатериалов обрезных сосновых для строительства в Новосибирске"
+    />
+    <meta
+      name="keywords"
+      content="Пиломатериалы, Сосна, Новосибирск, Строительство, Стройматериалы, Доски"
+    />
+    <title>Продажа пиломатериалов в Новосибирске</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <strong> <h1>Продажа пиломатериалов в Новосибирске</h1></strong>
+    </header>
+    <main>
+      <section class="main-section">
+        <img class="main-image" src="img/1.jpg" alt="Фото пиломатериалов 1" />
+        <p>
+          Пиломатериалы сосновые обрезные для строительства в Новосибирске в
+          ассортименте от завода производителя.
+        </p>
+        <ul>
+          <li>Отличное качество распиловки</li>
+          <li>Любая форма оплаты</li>
+          <li>Для юридических лиц цена с НДС</li>
+        </ul>
+      </section>
+    </main>
+
+    <strong><h2>Ассортимент</h2></strong>
+    <section class="assortment">
+      <div class="assortment-grid">
+        <div class="assortment-item">
+          пиломатериалы обрезные сосновые 6м 21х140
+        </div>
+        <div class="assortment-item">
+          пиломатериалы обрезные сосновые 6м 21х170
+        </div>
+        <div class="assortment-item">
+          пиломатериалы обрезные сосновые 6м 50х200
+        </div>
+        <div class="assortment-item">
+          пиломатериалы обрезные сосновые 4м 21х170
+        </div>
+        <div class="assortment-item">
+          пиломатериалы обрезные сосновые 4м 50х200
+        </div>
+        <div class="assortment-item">
+          пиломатериалы обрезные сосновые 4м 85х198
+        </div>
+      </div>
+    </section>
+
+    <strong><h2>Фото</h2></strong>
+    <section class="image-section">
+      <img src="img/2.jpg" alt="Фото пиломатериалов 2" />
+      <img src="img/3.jpg" alt="Фото пиломатериалов 3" />
+      <img src="img/4.jpg" alt="Фото пиломатериалов 4" />
+      <img src="img/5.jpg" alt="Фото пиломатериалов 5" />
+      <img src="img/6.jpg" alt="Фото пиломатериалов 6" />
+      <img src="img/7.jpg" alt="Фото пиломатериалов 7" />
+      <img src="img/8.jpg" alt="Фото пиломатериалов 8" />
+      <img src="img/9.jpg" alt="Фото пиломатериалов 9" />
+      <img src="img/10.jpg" alt="Фото пиломатериалов 10" />
+      <img src="img/11.jpg" alt="Фото пиломатериалов 11" />
+      <img src="img/12.jpg" alt="Фото пиломатериалов 12" />
+      <img src="img/13.jpg" alt="Фото пиломатериалов 13" />
+      <img src="img/14.jpg" alt="Фото пиломатериалов 14" />
+      <img src="img/15.jpg" alt="Фото пиломатериалов 15" />
+      <img src="img/16.jpg" alt="Фото пиломатериалов 16" />
+      <img src="img/17.jpg" alt="Фото пиломатериалов 17" />
+      <img src="img/18.jpg" alt="Фото пиломатериалов 18" />
+    </section>
+
+    <footer>
+      <strong
+        ><h2>Контакты</h2>
+        <p>Телефон: 8 (913) 774 11-44<br />Адрес: улица Большая 576</p>
+      </strong>
+    </footer>
+
+    <style>
+      .assortment {
+        display: flex;
+        justify-content: center;
+        padding: 2rem 1rem;
+      }
+
+      .assortment-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        max-width: 1000px;
+        width: 100%;
+      }
+
+      .assortment-item {
+        background-color: #f3f3f3;
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        transition: transform 0.3s ease;
+      }
+
+      .assortment-item:hover {
+        transform: scale(1.02);
+        cursor: pointer;
+      }
+
+      .image-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 1vw;
+      }
+
+      .image-section img {
+        width: 49%;
+        height: auto;
+        display: block;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+        border: #654321;
+        border-radius: 5px;
+      }
+
+      .image-section img:hover {
+        transform: scale(1.03);
+
+        border-radius: 10px;
+      }
+
+      .main-section ul {
+        display: block;
+        font-size: large;
+      }
+
+      .main-section img {
+        width: 100%;
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        color: #2e2e2e;
+        background-color: #f1efea;
+        margin: 0;
+      }
+
+      h1,
+      h2 {
+        color: #654321;
+        display: flex;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        justify-content: center;
+        margin: 5vw;
+        font-size: xx-large;
+      }
+
+      p {
+        display: flex;
+        justify-content: center;
+        font-size: large;
+        margin: 5%;
+      }
+
+      @media (max-width: 768px) {
+        .image-section img {
+          width: 98%;
+        }
+      }
+    </style>
+  </body>
+</html>
